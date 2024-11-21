@@ -1,16 +1,15 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
-import {PatateRosmarinoComponent} from './patate-rosmarino/patate-rosmarino.component'
+import { PatateRosmarinoComponent } from './patate-rosmarino/patate-rosmarino.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, HelloWorldComponent, PatateRosmarinoComponent],
+  imports: [RouterOutlet, HelloWorldComponent, PatateRosmarinoComponent ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tartarughe';
+  title = 'Tartarughe'; // La proprietà del titolo
 }
-

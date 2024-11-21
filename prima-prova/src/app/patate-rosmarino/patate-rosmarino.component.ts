@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'div-patate',
+  selector: 'app-div-patate',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './patate-rosmarino.component.html',
